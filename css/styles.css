@@ -755,7 +755,7 @@ img {
   margin-bottom: 16px;
 }
 
-.modal-div {
+.modal-div-name {
   margin-bottom: 8px;
 }
 
@@ -817,9 +817,6 @@ img {
 .footer-form {
   display: flex;
   gap: 24px;
-}
-.footer-label {
-  /* gap: 24px; */
 }
 
 .footer-form-input {
