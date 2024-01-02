@@ -759,9 +759,10 @@ img {
 
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .footer-label {
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .footer-form-input {
@@ -772,6 +773,10 @@ img {
   border: 1px solid #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding-left: 16px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .subscribe-button {
@@ -801,4 +806,8 @@ img {
 .subscribe-svg {
   margin-left: 16px;
   fill: #ffffff;
+}
+
+::placeholder {
+  color: #ffffff;
 }
