@@ -754,7 +754,14 @@ img {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.32px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+}
+.footer-label {
+  gap: 24px;
 }
 
 .footer-form-input {
@@ -764,10 +771,11 @@ img {
   border-radius: 4px;
   border: 1px solid #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding-right: 24px;
+  padding-left: 16px;
 }
 
 .subscribe-button {
+  display: flex;
   background-color: #4d5ae5;
   color: #ffffff;
   display: inline-flex;
@@ -775,9 +783,14 @@ img {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px;
 }
 
 .subscribe-button:hover,
@@ -786,5 +799,6 @@ img {
 }
 
 .subscribe-svg {
+  margin-left: 16px;
   fill: #ffffff;
 }
