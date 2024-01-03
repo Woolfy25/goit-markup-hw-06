@@ -938,7 +938,7 @@ img {
   color: #ffffff;
 }
 
-input:checked + .checkbox-span {
+.checkbox-span:checked {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
